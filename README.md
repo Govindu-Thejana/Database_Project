@@ -91,12 +91,8 @@ git clone https://github.com/your-username/space-launch-db.git
 cd space-launch-db
 ```
 
-2. Run the SQL scripts in sequence:
-```bash
-mysql -u your_username -p < 01_create_schema.sql
-mysql -u your_username -p < 02_create_tables.sql
-mysql -u your_username -p < 03_insert_data.sql
-```
+2. Install MySQL (version 8.0 or higher recommended)
+3. Run the SQL scripts in the following order:
 
 ## 📊 Performance Metrics
 
@@ -114,10 +110,9 @@ WHERE launch.date > '2023-01-01';
 ```
 
 ## 👥 Authors
-- **Govindu Thejana** - 📧 *Lead Database Architect*
-- **Sudesh Thashmika** - 💻 *Database Developer*
-- **Pasan Thilakshana** - 🔍 *Quality Assurance*
-
+- **Govindu Thejana** 
+- **Sudesh Thashmika** 
+- **Pasan Thilakshana** 
 ## 🤝 Contributing
 
 ### 📋 Contribution Steps
