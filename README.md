@@ -86,11 +86,6 @@ This database system manages various aspects of space launches, including launch
 
 ### 📥 Installation Steps
 1. Clone the repository:
-```bash
-git clone https://github.com/your-username/space-launch-db.git
-cd space-launch-db
-```
-
 2. Install MySQL (version 8.0 or higher recommended)
 3. Run the SQL scripts in the following order:
 
